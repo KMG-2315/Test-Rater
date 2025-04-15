@@ -18,7 +18,9 @@ namespace Quotes.DataAccessLayer
         public async Task<IEnumerable<T>> QueryAsync<T>(string sql, object parameters = null)
         {
             using var connection = _context.CreateConnection();
-            return await connection.QueryAsync<T>(sql, parameters);
+            //return await connection.QueryAsync<T>(sql, parameters);
+            return await connection.QueryAsync<T>(sql, parameters, commandType: CommandType.Text);
+
         }
 
         public async Task<T> QuerySingleAsync<T>(string sql, object parameters = null)

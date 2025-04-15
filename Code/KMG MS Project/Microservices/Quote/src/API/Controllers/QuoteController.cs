@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Quotes.BusinessLayer.Interfaces;
 using Quotes.BusinessLayer.Modal;
+using System.CodeDom.Compiler;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -25,7 +26,7 @@ namespace Quotes.Api.Controllers
             return Ok(response);
         }
 
-        // GET /quotes?controlNo=XYZ123
+        
         [HttpGet]
         public async Task<ActionResult> GetQuoteByControlNo([FromQuery] int controlNo)
         {
@@ -38,6 +39,14 @@ namespace Quotes.Api.Controllers
                 return NotFound();
 
             return Ok(quote);
+        }
+
+        [HttpGet("GetIMSToken")]
+        public async Task<IActionResult> GenerateIMSToken()
+        {
+            var token = await _quoteService.GetIMSToken();
+            return Ok(token);
+
         }
     }
 }

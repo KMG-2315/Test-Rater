@@ -1,4 +1,6 @@
-﻿using Quotes.BusinessLayer.Interfaces;
+﻿using DataAccessLayer.Utilities;
+using LoginService;
+using Quotes.BusinessLayer.Interfaces;
 using Quotes.BusinessLayer.Modal;
 using Quotes.DataAccessLayer;
 using System.Collections.Generic;
@@ -10,10 +12,12 @@ namespace Quotes.BusinessLayer.Services
     public class QuoteService : IQuoteService
     {
         private readonly IDataAccess _dataAccess;
+        private readonly BaseUtility _utility;
 
         public QuoteService(IDataAccess dataAccess)
         {
             _dataAccess = dataAccess;
+            _utility = new BaseUtility();   
         }
 
         public async Task<IEnumerable<QuoteModel>> GetAllQuotesAsync()
@@ -39,5 +43,11 @@ namespace Quotes.BusinessLayer.Services
                 QuoteStatuses = quotes.ToList()
             };
         }
+
+        public async Task<LoginReturn>  GetIMSToken()
+        {
+            return await _utility.GenerateIMSToken();
+        }
+
     }
 }

@@ -1,4 +1,5 @@
-﻿using Quotes.BusinessLayer.Modal;
+﻿using LoginService;
+using Quotes.BusinessLayer.Modal;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -9,5 +10,7 @@ namespace Quotes.BusinessLayer.Interfaces
         Task<IEnumerable<QuoteModel>> GetAllQuotesAsync();
         Task<QuoteModel> GetQuoteByControlNoAsync(int controlNo);
         Task<BatchResponse> GetPremStatBatchAsync();
+        Task<LoginReturn> GetIMSToken();
+        
     }
 }

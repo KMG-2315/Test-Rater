@@ -17,6 +17,16 @@
   },
   {
     "ContainingType": "Quotes.Api.Controllers.QuoteController",
+    "Method": "GenerateIMSToken",
+    "RelativePath": "quotes/GetIMSToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quotes.Api.Controllers.QuoteController",
     "Method": "GetPremStatBatch",
     "RelativePath": "quotes/premstatbatch",
     "HttpMethod": "GET",

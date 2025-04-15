@@ -3,7 +3,7 @@
     public class QuoteModel
     {
         public int QuoteID { get; set; }
-        public string QuoteGUID { get; set; }
+        public Guid QuoteGUID { get; set; }
         public string ControlNo { get; set; }
         public string PolicyNumber { get; set; }
         public decimal Premium { get; set; }

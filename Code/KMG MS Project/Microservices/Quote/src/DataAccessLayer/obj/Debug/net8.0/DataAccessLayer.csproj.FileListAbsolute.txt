@@ -10,3 +10,16 @@ D:\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataA
 D:\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
 D:\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
 D:\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.deps.json
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.sourcelink.json
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.dll
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\refint\DataAccessLayer.dll
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\DataAccessLayer.pdb
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\obj\Debug\net8.0\ref\DataAccessLayer.dll
