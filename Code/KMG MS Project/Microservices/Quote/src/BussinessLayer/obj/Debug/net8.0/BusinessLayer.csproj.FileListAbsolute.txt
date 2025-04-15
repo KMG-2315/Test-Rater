@@ -1,0 +1,15 @@
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

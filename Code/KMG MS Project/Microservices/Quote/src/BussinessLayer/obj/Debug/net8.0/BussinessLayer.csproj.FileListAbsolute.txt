@@ -1,0 +1,11 @@
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\BussinessLayer.deps.json
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\BussinessLayer.dll
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\bin\Debug\net8.0\BussinessLayer.pdb
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.AssemblyInfoInputs.cache
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.AssemblyInfo.cs
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.csproj.CoreCompileInputs.cache
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.dll
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\refint\BussinessLayer.dll
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.pdb
+D:\KMG MS Project\Microservices\Quote\src\BussinessLayer\obj\Debug\net8.0\ref\BussinessLayer.dll
