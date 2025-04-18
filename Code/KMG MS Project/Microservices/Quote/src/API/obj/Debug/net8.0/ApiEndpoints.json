@@ -27,6 +27,48 @@
   },
   {
     "ContainingType": "Quotes.Api.Controllers.QuoteController",
+    "Method": "GetPolicyInfo",
+    "RelativePath": "quotes/GetPolicyInfo/{quoteGuid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "quoteGuid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quotes.Api.Controllers.QuoteController",
+    "Method": "GetQuoteData",
+    "RelativePath": "quotes/GetQuoteData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "controlNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "userGuid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Quotes.Api.Controllers.QuoteController",
     "Method": "GetPremStatBatch",
     "RelativePath": "quotes/premstatbatch",
     "HttpMethod": "GET",

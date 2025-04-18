@@ -1,0 +1,12 @@
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\bin\Debug\net8.0\BussinessLayer.deps.json
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\bin\Debug\net8.0\BussinessLayer.dll
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\bin\Debug\net8.0\BussinessLayer.pdb
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.AssemblyInfoInputs.cache
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.AssemblyInfo.cs
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.csproj.CoreCompileInputs.cache
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.sourcelink.json
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.dll
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\refint\BussinessLayer.dll
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\BussinessLayer.pdb
+D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Insured\src\BussinessLayer\obj\Debug\net8.0\ref\BussinessLayer.dll
