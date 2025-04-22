@@ -1,0 +1,1008 @@
+2025-04-21 10:58:46.353 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 10:58:46.526 +05:30 [DBG] Hosting starting
+2025-04-21 10:58:47.324 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-21 10:58:47.330 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-21 10:58:47.334 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-21 10:58:47.338 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 10:58:47.342 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 10:58:47.347 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 10:58:47.377 +05:30 [DBG] Connection id "0HNC0ILI1065U" received FIN.
+2025-04-21 10:58:47.377 +05:30 [DBG] Connection id "0HNC0ILI1065V" received FIN.
+2025-04-21 10:58:47.383 +05:30 [DBG] Connection id "0HNC0ILI1065U" accepted.
+2025-04-21 10:58:47.383 +05:30 [DBG] Connection id "0HNC0ILI1065V" accepted.
+2025-04-21 10:58:47.394 +05:30 [DBG] Connection id "0HNC0ILI1065U" started.
+2025-04-21 10:58:47.399 +05:30 [DBG] Connection id "0HNC0ILI1065V" started.
+2025-04-21 10:58:47.473 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 10:58:47.473 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 10:58:47.606 +05:30 [DBG] Connection id "0HNC0ILI1065U" stopped.
+2025-04-21 10:58:47.606 +05:30 [DBG] Connection id "0HNC0ILI1065V" stopped.
+2025-04-21 10:58:47.635 +05:30 [DBG] Connection id "0HNC0ILI1065V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 10:58:47.635 +05:30 [DBG] Connection id "0HNC0ILI1065U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 10:58:47.732 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 10:58:47.739 +05:30 [INF] Hosting environment: Development
+2025-04-21 10:58:47.742 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-21 10:58:47.749 +05:30 [DBG] Hosting started
+2025-04-21 10:58:51.704 +05:30 [DBG] Connection id "0HNC0ILI10660" accepted.
+2025-04-21 10:58:51.718 +05:30 [DBG] Connection id "0HNC0ILI10660" started.
+2025-04-21 10:58:51.861 +05:30 [DBG] Connection 0HNC0ILI10660 established using the following protocol: "Tls13"
+2025-04-21 10:58:52.099 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-21 10:58:52.394 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 10:58:52.427 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-21 10:58:52.434 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 10:58:52.545 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 10:58:52.557 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 10:58:52.625 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 170.1403 ms
+2025-04-21 10:58:52.644 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 10:58:52.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 10:58:52.650 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-21 10:58:52.654 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 10:58:52.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 624.4012ms
+2025-04-21 10:58:52.702 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 52.1636ms
+2025-04-21 10:58:52.910 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 260.8137ms
+2025-04-21 10:58:53.058 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-21 10:58:53.071 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 10:58:53.077 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 10:58:53.106 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/favicon-32x32.png - null null
+2025-04-21 10:58:53.116 +05:30 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2025-04-21 10:58:53.120 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 10:58:53.152 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-04-21 10:58:53.162 +05:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 32.2526 ms
+2025-04-21 10:58:53.169 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/favicon-32x32.png - 200 628 image/png 65.1853ms
+2025-04-21 10:58:53.308 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 226.7738 ms
+2025-04-21 10:58:53.320 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 263.1988ms
+2025-04-21 10:59:11.349 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - null null
+2025-04-21 10:59:11.380 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 10:59:11.401 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)' with route pattern 'quotes/GetPolicyInfo/{quoteGuid}' is valid for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 10:59:11.412 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 10:59:11.422 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-21 10:59:11.435 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 10:59:11.527 +05:30 [INF] Route matched with {action = "GetPolicyInfo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPolicyInfo(System.Guid) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-21 10:59:11.544 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 10:59:11.555 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 10:59:11.568 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-21 10:59:11.579 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 10:59:11.588 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-21 10:59:11.600 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 10:59:11.610 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 10:59:11.661 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 10:59:11.673 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' using the name 'quoteGuid' in request data ...
+2025-04-21 10:59:11.686 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 10:59:11.693 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 10:59:11.699 +05:30 [DBG] Attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 10:59:11.713 +05:30 [DBG] Done attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 10:59:11.730 +05:30 [INF] Starting to retrieve policy details for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+2025-04-21 10:59:11.793 +05:30 [INF] Getting IMS token for GetPolicyInformation...
+2025-04-21 10:59:11.800 +05:30 [INF] Calling BaseUtility.GenerateIMSToken()
+2025-04-21 10:59:53.704 +05:30 [ERR] Error while generating IMS token
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+2025-04-21 10:59:53.872 +05:30 [ERR] Error in GetPolicyInformation
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+2025-04-21 10:59:54.046 +05:30 [ERR] Exception occurred while retrieving policy info for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+   at Quotes.Api.Controllers.QuoteController.GetPolicyInfo(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 117
+2025-04-21 10:59:54.124 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-21 10:59:54.143 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-21 10:59:54.152 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-04-21 10:59:54.159 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-04-21 10:59:54.188 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API) in 42574.6013ms
+2025-04-21 10:59:54.195 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 10:59:54.200 +05:30 [ERR] HTTP GET /quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 responded 500 in 42778.1949 ms
+2025-04-21 10:59:54.208 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - 500 null text/plain; charset=utf-8 42861.8422ms
+2025-04-21 11:01:52.610 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 11:01:52.885 +05:30 [DBG] Hosting starting
+2025-04-21 11:01:53.484 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-21 11:01:53.494 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-21 11:01:53.502 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-21 11:01:53.510 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 11:01:53.517 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 11:01:53.525 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 11:01:53.644 +05:30 [DBG] Connection id "0HNC0IN9HCI2M" received FIN.
+2025-04-21 11:01:53.644 +05:30 [DBG] Connection id "0HNC0IN9HCI2N" received FIN.
+2025-04-21 11:01:53.653 +05:30 [DBG] Connection id "0HNC0IN9HCI2N" accepted.
+2025-04-21 11:01:53.656 +05:30 [DBG] Connection id "0HNC0IN9HCI2M" accepted.
+2025-04-21 11:01:53.668 +05:30 [DBG] Connection id "0HNC0IN9HCI2N" started.
+2025-04-21 11:01:53.673 +05:30 [DBG] Connection id "0HNC0IN9HCI2M" started.
+2025-04-21 11:01:53.739 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:01:53.739 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:01:53.864 +05:30 [DBG] Connection id "0HNC0IN9HCI2M" stopped.
+2025-04-21 11:01:53.864 +05:30 [DBG] Connection id "0HNC0IN9HCI2N" stopped.
+2025-04-21 11:01:53.894 +05:30 [DBG] Connection id "0HNC0IN9HCI2M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:01:53.894 +05:30 [DBG] Connection id "0HNC0IN9HCI2N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:01:53.897 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 11:01:53.916 +05:30 [INF] Hosting environment: Development
+2025-04-21 11:01:53.922 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-21 11:01:53.926 +05:30 [DBG] Hosting started
+2025-04-21 11:01:54.507 +05:30 [DBG] Connection id "0HNC0IN9HCI2O" accepted.
+2025-04-21 11:01:54.514 +05:30 [DBG] Connection id "0HNC0IN9HCI2O" started.
+2025-04-21 11:01:54.640 +05:30 [DBG] Connection 0HNC0IN9HCI2O established using the following protocol: "Tls13"
+2025-04-21 11:01:54.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-21 11:01:55.160 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 11:01:55.230 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-21 11:01:55.237 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:01:55.382 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 11:01:55.392 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 11:01:55.445 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 190.8419 ms
+2025-04-21 11:01:55.458 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 11:01:55.466 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 11:01:55.472 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-21 11:01:55.472 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 11:01:55.485 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 664.5535ms
+2025-04-21 11:01:55.608 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 135.8613ms
+2025-04-21 11:01:55.680 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 208.9324ms
+2025-04-21 11:01:55.901 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-21 11:01:55.918 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 11:01:55.927 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:01:56.142 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 209.3457 ms
+2025-04-21 11:01:56.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 250.7364ms
+2025-04-21 11:02:05.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - null null
+2025-04-21 11:02:05.241 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 11:02:05.261 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)' with route pattern 'quotes/GetPolicyInfo/{quoteGuid}' is valid for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 11:02:05.275 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:02:05.293 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-21 11:02:05.308 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:02:05.424 +05:30 [INF] Route matched with {action = "GetPolicyInfo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPolicyInfo(System.Guid) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-21 11:02:05.441 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 11:02:05.453 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 11:02:05.463 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-21 11:02:05.476 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 11:02:05.486 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-21 11:02:05.505 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:02:05.517 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:02:05.564 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:02:05.577 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' using the name 'quoteGuid' in request data ...
+2025-04-21 11:02:05.588 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:02:05.595 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:02:05.604 +05:30 [DBG] Attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:02:05.616 +05:30 [DBG] Done attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:02:05.635 +05:30 [INF] Starting to retrieve policy details for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+2025-04-21 11:02:05.671 +05:30 [INF] Getting IMS token for GetPolicyInformation...
+2025-04-21 11:02:05.676 +05:30 [INF] Calling BaseUtility.GenerateIMSToken()
+2025-04-21 11:02:49.736 +05:30 [ERR] Error while generating IMS token
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+2025-04-21 11:02:49.921 +05:30 [ERR] Error in GetPolicyInformation
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+2025-04-21 11:02:50.102 +05:30 [ERR] Exception occurred while retrieving policy info for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+   at Quotes.Api.Controllers.QuoteController.GetPolicyInfo(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 117
+2025-04-21 11:02:50.146 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-21 11:02:50.167 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-21 11:02:50.178 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-04-21 11:02:50.189 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-04-21 11:02:50.230 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API) in 44718.0279ms
+2025-04-21 11:02:50.238 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:02:50.246 +05:30 [ERR] HTTP GET /quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 responded 500 in 44956.0926 ms
+2025-04-21 11:02:50.256 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - 500 null text/plain; charset=utf-8 45034.509ms
+2025-04-21 11:03:12.874 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 11:03:13.104 +05:30 [DBG] Hosting starting
+2025-04-21 11:03:13.536 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-21 11:03:13.542 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-21 11:03:13.547 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-21 11:03:13.551 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 11:03:13.555 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 11:03:13.561 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 11:03:13.613 +05:30 [DBG] Connection id "0HNC0IO1C1IFJ" received FIN.
+2025-04-21 11:03:13.615 +05:30 [DBG] Connection id "0HNC0IO1C1IFJ" accepted.
+2025-04-21 11:03:13.622 +05:30 [DBG] Connection id "0HNC0IO1C1IFJ" started.
+2025-04-21 11:03:13.661 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:03:13.768 +05:30 [DBG] Connection id "0HNC0IO1C1IFJ" stopped.
+2025-04-21 11:03:13.786 +05:30 [DBG] Connection id "0HNC0IO1C1IFJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:03:13.852 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 11:03:13.858 +05:30 [INF] Hosting environment: Development
+2025-04-21 11:03:13.861 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-21 11:03:13.865 +05:30 [DBG] Hosting started
+2025-04-21 11:03:14.447 +05:30 [DBG] Connection id "0HNC0IO1C1IFK" accepted.
+2025-04-21 11:03:14.456 +05:30 [DBG] Connection id "0HNC0IO1C1IFK" started.
+2025-04-21 11:03:14.534 +05:30 [DBG] Connection 0HNC0IO1C1IFK established using the following protocol: "Tls13"
+2025-04-21 11:03:14.721 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-21 11:03:14.971 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 11:03:15.026 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-21 11:03:15.037 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:03:15.161 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 11:03:15.166 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 11:03:15.215 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 155.6366 ms
+2025-04-21 11:03:15.225 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 11:03:15.229 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-21 11:03:15.233 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 11:03:15.280 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 52.6444ms
+2025-04-21 11:03:15.285 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 11:03:15.325 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 620.1489ms
+2025-04-21 11:03:15.386 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 159.3887ms
+2025-04-21 11:03:15.478 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-21 11:03:15.491 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 11:03:15.497 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:03:15.806 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 304.7157 ms
+2025-04-21 11:03:15.814 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 337.0201ms
+2025-04-21 11:03:26.064 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - null null
+2025-04-21 11:03:26.084 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 11:03:26.095 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)' with route pattern 'quotes/GetPolicyInfo/{quoteGuid}' is valid for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 11:03:26.100 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:03:26.124 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-21 11:03:26.143 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:03:26.237 +05:30 [INF] Route matched with {action = "GetPolicyInfo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPolicyInfo(System.Guid) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-21 11:03:26.252 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 11:03:26.262 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 11:03:26.273 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-21 11:03:26.287 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 11:03:26.296 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-21 11:03:26.313 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:03:26.325 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:03:26.411 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:03:26.426 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' using the name 'quoteGuid' in request data ...
+2025-04-21 11:03:26.437 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:03:26.445 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:03:26.456 +05:30 [DBG] Attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:03:26.470 +05:30 [DBG] Done attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:03:26.488 +05:30 [INF] Starting to retrieve policy details for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+2025-04-21 11:03:26.539 +05:30 [INF] Getting IMS token for GetPolicyInformation...
+2025-04-21 11:03:26.548 +05:30 [INF] Calling BaseUtility.GenerateIMSToken()
+2025-04-21 11:03:55.258 +05:30 [ERR] Error while generating IMS token
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+2025-04-21 11:03:55.400 +05:30 [ERR] Error in GetPolicyInformation
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+2025-04-21 11:03:55.558 +05:30 [ERR] Exception occurred while retrieving policy info for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+   at Quotes.Api.Controllers.QuoteController.GetPolicyInfo(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 117
+2025-04-21 11:03:55.606 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-21 11:03:55.623 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-21 11:03:55.634 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-04-21 11:03:55.645 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-04-21 11:03:55.671 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API) in 29351.225ms
+2025-04-21 11:03:55.680 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:03:55.691 +05:30 [ERR] HTTP GET /quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 responded 500 in 29572.5973 ms
+2025-04-21 11:03:55.700 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - 500 null text/plain; charset=utf-8 29636.1249ms
+2025-04-21 11:04:42.233 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 11:04:42.407 +05:30 [DBG] Hosting starting
+2025-04-21 11:04:42.818 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-21 11:04:42.825 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-21 11:04:42.833 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-21 11:04:42.841 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 11:04:42.850 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 11:04:42.861 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 11:04:43.021 +05:30 [DBG] Connection id "0HNC0IOS0MMTG" accepted.
+2025-04-21 11:04:43.021 +05:30 [DBG] Connection id "0HNC0IOS0MMTG" received FIN.
+2025-04-21 11:04:43.038 +05:30 [DBG] Connection id "0HNC0IOS0MMTG" started.
+2025-04-21 11:04:43.038 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 11:04:43.021 +05:30 [DBG] Connection id "0HNC0IOS0MMTH" received FIN.
+2025-04-21 11:04:43.071 +05:30 [INF] Hosting environment: Development
+2025-04-21 11:04:43.087 +05:30 [DBG] Connection id "0HNC0IOS0MMTH" accepted.
+2025-04-21 11:04:43.094 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-21 11:04:43.104 +05:30 [DBG] Connection id "0HNC0IOS0MMTH" started.
+2025-04-21 11:04:43.111 +05:30 [DBG] Hosting started
+2025-04-21 11:04:43.112 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:04:43.123 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:04:43.207 +05:30 [DBG] Connection id "0HNC0IOS0MMTG" stopped.
+2025-04-21 11:04:43.210 +05:30 [DBG] Connection id "0HNC0IOS0MMTH" stopped.
+2025-04-21 11:04:43.227 +05:30 [DBG] Connection id "0HNC0IOS0MMTG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:04:43.227 +05:30 [DBG] Connection id "0HNC0IOS0MMTH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:04:43.917 +05:30 [DBG] Connection id "0HNC0IOS0MMTI" accepted.
+2025-04-21 11:04:43.924 +05:30 [DBG] Connection id "0HNC0IOS0MMTI" started.
+2025-04-21 11:04:44.023 +05:30 [DBG] Connection 0HNC0IOS0MMTI established using the following protocol: "Tls13"
+2025-04-21 11:04:44.208 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-21 11:04:44.458 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 11:04:44.487 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-21 11:04:44.491 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:04:44.584 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 11:04:44.593 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 11:04:44.640 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 136.8366 ms
+2025-04-21 11:04:44.655 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 11:04:44.662 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 11:04:44.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 11:04:44.666 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-21 11:04:44.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 490.2407ms
+2025-04-21 11:04:44.695 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 29.3527ms
+2025-04-21 11:04:44.795 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 129.1344ms
+2025-04-21 11:04:45.044 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-21 11:04:45.064 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 11:04:45.071 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:04:45.312 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 234.3647 ms
+2025-04-21 11:04:45.324 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 280.8553ms
+2025-04-21 11:05:08.051 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - null null
+2025-04-21 11:05:08.107 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 11:05:08.126 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)' with route pattern 'quotes/GetPolicyInfo/{quoteGuid}' is valid for the request path '/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96'
+2025-04-21 11:05:08.138 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:05:08.153 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-21 11:05:08.164 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:05:08.289 +05:30 [INF] Route matched with {action = "GetPolicyInfo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPolicyInfo(System.Guid) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-21 11:05:08.300 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 11:05:08.306 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 11:05:08.312 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-21 11:05:08.326 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 11:05:08.344 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-21 11:05:08.371 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:05:08.391 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:05:08.442 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:05:08.454 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' using the name 'quoteGuid' in request data ...
+2025-04-21 11:05:08.461 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:05:08.474 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:05:08.492 +05:30 [DBG] Attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:05:08.531 +05:30 [DBG] Done attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:05:08.549 +05:30 [INF] Starting to retrieve policy details for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+2025-04-21 11:05:08.592 +05:30 [INF] Getting IMS token for GetPolicyInformation...
+2025-04-21 11:05:08.598 +05:30 [INF] Calling BaseUtility.GenerateIMSToken()
+2025-04-21 11:05:50.250 +05:30 [ERR] Error while generating IMS token
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+2025-04-21 11:05:50.421 +05:30 [ERR] Error in GetPolicyInformation
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+2025-04-21 11:05:50.601 +05:30 [ERR] Exception occurred while retrieving policy info for QuoteGuid: "2b943c6c-3a1c-47f6-8a62-d2341e8eef96"
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+   at Quotes.Api.Controllers.QuoteController.GetPolicyInfo(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 117
+2025-04-21 11:05:50.654 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-21 11:05:50.677 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-21 11:05:50.690 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-04-21 11:05:50.703 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-04-21 11:05:50.747 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API) in 42353.0504ms
+2025-04-21 11:05:50.760 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:05:50.772 +05:30 [ERR] HTTP GET /quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 responded 500 in 42624.0061 ms
+2025-04-21 11:05:50.787 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/2B943C6C-3A1C-47F6-8A62-D2341E8EEF96 - 500 null text/plain; charset=utf-8 42736.048ms
+2025-04-21 11:07:25.937 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 11:07:26.127 +05:30 [DBG] Hosting starting
+2025-04-21 11:07:26.492 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-21 11:07:26.499 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-21 11:07:26.506 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-21 11:07:26.512 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 11:07:26.518 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 11:07:26.524 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 11:07:26.647 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 11:07:26.654 +05:30 [DBG] Connection id "0HNC0IQCP6V4R" accepted.
+2025-04-21 11:07:26.654 +05:30 [DBG] Connection id "0HNC0IQCP6V4S" accepted.
+2025-04-21 11:07:26.654 +05:30 [INF] Hosting environment: Development
+2025-04-21 11:07:26.666 +05:30 [DBG] Connection id "0HNC0IQCP6V4R" started.
+2025-04-21 11:07:26.679 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-21 11:07:26.672 +05:30 [DBG] Connection id "0HNC0IQCP6V4S" started.
+2025-04-21 11:07:26.710 +05:30 [DBG] Connection id "0HNC0IQCP6V4R" received FIN.
+2025-04-21 11:07:26.713 +05:30 [DBG] Hosting started
+2025-04-21 11:07:26.710 +05:30 [DBG] Connection id "0HNC0IQCP6V4S" received FIN.
+2025-04-21 11:07:26.774 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:07:26.772 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:07:26.876 +05:30 [DBG] Connection id "0HNC0IQCP6V4R" stopped.
+2025-04-21 11:07:26.877 +05:30 [DBG] Connection id "0HNC0IQCP6V4S" stopped.
+2025-04-21 11:07:26.895 +05:30 [DBG] Connection id "0HNC0IQCP6V4R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:07:26.895 +05:30 [DBG] Connection id "0HNC0IQCP6V4S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:07:27.490 +05:30 [DBG] Connection id "0HNC0IQCP6V4T" accepted.
+2025-04-21 11:07:27.499 +05:30 [DBG] Connection id "0HNC0IQCP6V4T" started.
+2025-04-21 11:07:27.594 +05:30 [DBG] Connection 0HNC0IQCP6V4T established using the following protocol: "Tls13"
+2025-04-21 11:07:27.884 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-21 11:07:28.271 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 11:07:28.328 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-21 11:07:28.338 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:07:28.546 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 11:07:28.553 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 11:07:28.622 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-21 11:07:28.622 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 11:07:28.619 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 256.7726 ms
+2025-04-21 11:07:28.689 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 11:07:28.719 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 11:07:28.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 97.5735ms
+2025-04-21 11:07:28.726 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 864.2247ms
+2025-04-21 11:07:28.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 191.4896ms
+2025-04-21 11:07:28.920 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-21 11:07:28.938 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 11:07:28.942 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:07:29.139 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 191.0286 ms
+2025-04-21 11:07:29.151 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 232.3624ms
+2025-04-21 11:07:55.129 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695 - null null
+2025-04-21 11:07:55.155 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695'
+2025-04-21 11:07:55.173 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)' with route pattern 'quotes/GetPolicyInfo/{quoteGuid}' is valid for the request path '/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695'
+2025-04-21 11:07:55.184 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:07:55.199 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-21 11:07:55.208 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:07:55.325 +05:30 [INF] Route matched with {action = "GetPolicyInfo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPolicyInfo(System.Guid) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-21 11:07:55.351 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 11:07:55.361 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 11:07:55.370 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-21 11:07:55.381 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 11:07:55.392 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-21 11:07:55.407 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:07:55.419 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:07:55.460 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:07:55.473 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' using the name 'quoteGuid' in request data ...
+2025-04-21 11:07:55.484 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:07:55.495 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:07:55.507 +05:30 [DBG] Attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:07:55.525 +05:30 [DBG] Done attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:07:55.549 +05:30 [INF] Starting to retrieve policy details for QuoteGuid: "38c0a557-6ba4-4315-9620-f190b09e6695"
+2025-04-21 11:07:55.672 +05:30 [INF] Getting IMS token for GetPolicyInformation...
+2025-04-21 11:07:55.679 +05:30 [INF] Calling BaseUtility.GenerateIMSToken()
+2025-04-21 11:08:24.799 +05:30 [ERR] Error while generating IMS token
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+2025-04-21 11:08:24.933 +05:30 [ERR] Error in GetPolicyInformation
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+2025-04-21 11:08:25.109 +05:30 [ERR] Exception occurred while retrieving policy info for QuoteGuid: "38c0a557-6ba4-4315-9620-f190b09e6695"
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+   at Quotes.Api.Controllers.QuoteController.GetPolicyInfo(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 117
+2025-04-21 11:08:25.164 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-21 11:08:25.185 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-21 11:08:25.198 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-04-21 11:08:25.205 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-04-21 11:08:25.245 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API) in 29815.2929ms
+2025-04-21 11:08:25.254 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:08:25.262 +05:30 [ERR] HTTP GET /quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695 responded 500 in 30067.3787 ms
+2025-04-21 11:08:25.277 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695 - 500 null text/plain; charset=utf-8 30147.6377ms
+2025-04-21 11:14:22.661 +05:30 [DBG] Connection id "0HNC0IQCP6V4T" received FIN.
+2025-04-21 11:14:22.721 +05:30 [DBG] The connection queue processing loop for 0HNC0IQCP6V4T completed.
+2025-04-21 11:14:22.733 +05:30 [DBG] Connection id "0HNC0IQCP6V4T" is closed. The last processed stream ID was 9.
+2025-04-21 11:14:22.744 +05:30 [DBG] Connection id "0HNC0IQCP6V4T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:14:22.760 +05:30 [DBG] Connection id "0HNC0IQCP6V4T" stopped.
+2025-04-21 11:19:30.591 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-21 11:19:30.909 +05:30 [DBG] Hosting starting
+2025-04-21 11:19:31.404 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-21 11:19:31.412 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-21 11:19:31.417 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-21 11:19:31.421 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-21 11:19:31.429 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-21 11:19:31.436 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-21 11:19:31.534 +05:30 [DBG] Connection id "0HNC0J14Q7FD4" received FIN.
+2025-04-21 11:19:31.534 +05:30 [DBG] Connection id "0HNC0J14Q7FD3" received FIN.
+2025-04-21 11:19:31.569 +05:30 [DBG] Connection id "0HNC0J14Q7FD3" accepted.
+2025-04-21 11:19:31.569 +05:30 [DBG] Connection id "0HNC0J14Q7FD4" accepted.
+2025-04-21 11:19:31.577 +05:30 [DBG] Connection id "0HNC0J14Q7FD3" started.
+2025-04-21 11:19:31.580 +05:30 [DBG] Connection id "0HNC0J14Q7FD4" started.
+2025-04-21 11:19:31.645 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:19:31.645 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-21 11:19:31.768 +05:30 [DBG] Connection id "0HNC0J14Q7FD3" stopped.
+2025-04-21 11:19:31.769 +05:30 [DBG] Connection id "0HNC0J14Q7FD4" stopped.
+2025-04-21 11:19:31.800 +05:30 [DBG] Connection id "0HNC0J14Q7FD3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:19:31.800 +05:30 [DBG] Connection id "0HNC0J14Q7FD4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-21 11:19:31.808 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-21 11:19:31.831 +05:30 [INF] Hosting environment: Development
+2025-04-21 11:19:31.835 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-21 11:19:31.840 +05:30 [DBG] Hosting started
+2025-04-21 11:19:32.562 +05:30 [DBG] Connection id "0HNC0J14Q7FD5" accepted.
+2025-04-21 11:19:32.569 +05:30 [DBG] Connection id "0HNC0J14Q7FD5" started.
+2025-04-21 11:19:32.710 +05:30 [DBG] Connection 0HNC0J14Q7FD5 established using the following protocol: "Tls13"
+2025-04-21 11:19:32.965 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-21 11:19:33.298 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-21 11:19:33.363 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-21 11:19:33.379 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:19:33.561 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-21 11:19:33.570 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-21 11:19:33.716 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-21 11:19:33.715 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 304.4410 ms
+2025-04-21 11:19:33.723 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-21 11:19:33.753 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-21 11:19:33.780 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-21 11:19:33.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 853.0464ms
+2025-04-21 11:19:33.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 99.4836ms
+2025-04-21 11:19:33.940 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 224.2763ms
+2025-04-21 11:19:34.116 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-21 11:19:34.176 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-21 11:19:34.183 +05:30 [DBG] Request did not match any endpoints
+2025-04-21 11:19:34.561 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 334.4092 ms
+2025-04-21 11:19:34.572 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 456.4428ms
+2025-04-21 11:19:42.629 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695 - null null
+2025-04-21 11:19:42.665 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695'
+2025-04-21 11:19:42.690 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)' with route pattern 'quotes/GetPolicyInfo/{quoteGuid}' is valid for the request path '/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695'
+2025-04-21 11:19:42.707 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:19:42.726 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-21 11:19:42.741 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:19:42.856 +05:30 [INF] Route matched with {action = "GetPolicyInfo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPolicyInfo(System.Guid) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-21 11:19:42.879 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-21 11:19:42.893 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-21 11:19:42.910 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-21 11:19:42.930 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-21 11:19:42.945 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-21 11:19:42.965 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:19:42.982 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-21 11:19:43.042 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:19:43.061 +05:30 [DBG] Attempting to bind parameter 'quoteGuid' of type 'System.Guid' using the name 'quoteGuid' in request data ...
+2025-04-21 11:19:43.076 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:19:43.090 +05:30 [DBG] Done attempting to bind parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:19:43.102 +05:30 [DBG] Attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid' ...
+2025-04-21 11:19:43.119 +05:30 [DBG] Done attempting to validate the bound parameter 'quoteGuid' of type 'System.Guid'.
+2025-04-21 11:19:43.140 +05:30 [INF] Starting to retrieve policy details for QuoteGuid: "38c0a557-6ba4-4315-9620-f190b09e6695"
+2025-04-21 11:19:43.189 +05:30 [INF] Getting IMS token for GetPolicyInformation...
+2025-04-21 11:19:43.199 +05:30 [INF] Calling BaseUtility.GenerateIMSToken()
+2025-04-21 11:20:24.715 +05:30 [ERR] Error while generating IMS token
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+2025-04-21 11:20:24.914 +05:30 [ERR] Error in GetPolicyInformation
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+2025-04-21 11:20:25.103 +05:30 [ERR] Exception occurred while retrieving policy info for QuoteGuid: "38c0a557-6ba4-4315-9620-f190b09e6695"
+System.ServiceModel.ProtocolException: The content type text/html; charset=utf-8 of the response message does not match the content type of the binding (text/xml; charset=utf-8). If using a custom encoder, be sure that the IsContentTypeSupported method is implemented properly. The first 1024 bytes of the response were: '<!DOCTYPE html>
+<html>
+    <head>
+        <title>The network path was not found</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          p'.
+   at System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.SendAsyncResult.End(SendAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannel.EndCall(String action, Object[] outs, IAsyncResult result)
+   at System.ServiceModel.Channels.ServiceChannelProxy.TaskCreator.<>c__DisplayClass1_0.<CreateGenericTask>b__0(IAsyncResult asyncResult)
+--- End of stack trace from previous location ---
+   at DataAccessLayer.Utilities.BaseUtility.GenerateIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\DataAccessLayer\Utilities\BaseUtility.cs:line 18
+   at Quotes.BusinessLayer.Services.QuoteService.GetIMSToken() in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 63
+   at Quotes.BusinessLayer.Services.QuoteService.GetPolicyInformation(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\BussinessLayer\Services\QuoteService.cs:line 98
+   at Quotes.Api.Controllers.QuoteController.GetPolicyInfo(Guid quoteGuid) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 117
+2025-04-21 11:20:25.173 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-21 11:20:25.199 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-21 11:20:25.216 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-04-21 11:20:25.229 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-04-21 11:20:25.277 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API) in 42286.9163ms
+2025-04-21 11:20:25.292 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetPolicyInfo (API)'
+2025-04-21 11:20:25.302 +05:30 [ERR] HTTP GET /quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695 responded 500 in 42579.7403 ms
+2025-04-21 11:20:25.314 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes/GetPolicyInfo/38C0A557-6BA4-4315-9620-F190B09E6695 - 500 null text/plain; charset=utf-8 42686.5558ms

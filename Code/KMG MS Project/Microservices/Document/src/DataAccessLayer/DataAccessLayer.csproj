@@ -7,7 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Utilities\" />
+    <PackageReference Include="Dapper" Version="2.1.66" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.4" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Federation" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Http" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="6.0.*" />
+    <PackageReference Include="System.ServiceModel.Security" Version="6.0.*" />
   </ItemGroup>
 
 </Project>

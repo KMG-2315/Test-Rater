@@ -1,5 +1,12 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Document.BusinessLayer.Interfaces;
+using Document.BusinessLayer.Services;
+using Document.DataAccessLayer;
+using Serilog;
 
-namespace API
+namespace Api
 {
     public class Program
     {
@@ -7,16 +14,30 @@ namespace API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            builder.Services.AddControllers(options =>
+            {
+                options.RespectBrowserAcceptHeader = true;
+                options.OutputFormatters.RemoveType<Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter>();
+            });
 
-            builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddSingleton<DapperContext>();
+            builder.Services.AddScoped<IDocumentService, DocumentService>();
+
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            var app = builder.Build();
+            Log.Logger = new LoggerConfiguration()
+                .WriteTo.Console()
+                .WriteTo.File("Logs/document_log.txt", rollingInterval: RollingInterval.Day)
+                .Enrich.FromLogContext()
+                .MinimumLevel.Debug()
+                .CreateLogger();
 
-            // Configure the HTTP request pipeline.
+            builder.Host.UseSerilog();
+
+            var app = builder.Build();
+            app.UseSerilogRequestLogging();
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -24,12 +45,8 @@ namespace API
             }
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
             app.MapControllers();
-
             app.Run();
         }
     }
