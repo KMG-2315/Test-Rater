@@ -7,6 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+
 namespace DocumentWCFService
 {
     
@@ -3585,7 +3586,12 @@ namespace DocumentWCFService
             }
             throw new System.InvalidOperationException(string.Format("Could not find endpoint with name \'{0}\'.", endpointConfiguration));
         }
-        
+
+        internal async Task<GenerateAutomationDocumentResponse> GenerateAutomationDocumentAsync(TokenHeader header, object quoteGuid)
+        {
+            throw new NotImplementedException();
+        }
+
         public enum EndpointConfiguration
         {
             

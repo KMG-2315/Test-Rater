@@ -1,0 +1,45 @@
+2025-04-22 15:05:13.227 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-22 15:05:13.505 +05:30 [DBG] Hosting starting
+2025-04-22 15:05:14.364 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-22 15:05:14.372 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-22 15:05:14.377 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-22 15:05:14.381 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-22 15:05:14.385 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-22 15:05:14.390 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-22 15:05:14.480 +05:30 [DBG] Connection id "0HNC1G3U4DSBQ" received FIN.
+2025-04-22 15:05:14.521 +05:30 [DBG] Connection id "0HNC1G3U4DSBQ" accepted.
+2025-04-22 15:05:14.545 +05:30 [DBG] Connection id "0HNC1G3U4DSBQ" started.
+2025-04-22 15:05:14.615 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-22 15:05:14.728 +05:30 [DBG] Connection id "0HNC1G3U4DSBQ" stopped.
+2025-04-22 15:05:14.754 +05:30 [DBG] Connection id "0HNC1G3U4DSBQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-22 15:05:14.818 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-22 15:05:14.824 +05:30 [INF] Hosting environment: Development
+2025-04-22 15:05:14.827 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-22 15:05:14.831 +05:30 [DBG] Hosting started
+2025-04-22 15:05:16.868 +05:30 [DBG] Connection id "0HNC1G3U4DSBR" accepted.
+2025-04-22 15:05:16.876 +05:30 [DBG] Connection id "0HNC1G3U4DSBR" started.
+2025-04-22 15:05:17.103 +05:30 [DBG] Connection 0HNC1G3U4DSBR established using the following protocol: "Tls13"
+2025-04-22 15:05:17.340 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-22 15:05:17.813 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-22 15:05:17.870 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-22 15:05:17.875 +05:30 [DBG] Request did not match any endpoints
+2025-04-22 15:05:18.074 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-22 15:05:18.082 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-22 15:05:18.139 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 246.1636 ms
+2025-04-22 15:05:18.160 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-22 15:05:18.160 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-22 15:05:18.167 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-22 15:05:18.193 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-22 15:05:18.265 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 957.4117ms
+2025-04-22 15:05:18.265 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 103.6144ms
+2025-04-22 15:05:18.551 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 391.961ms
+2025-04-22 15:05:18.667 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-22 15:05:18.682 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-22 15:05:18.686 +05:30 [DBG] Request did not match any endpoints
+2025-04-22 15:05:18.987 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 296.4036 ms
+2025-04-22 15:05:19.006 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 340.4314ms

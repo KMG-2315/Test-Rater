@@ -4,6 +4,7 @@ using Microsoft.Extensions.Hosting;
 using Document.BusinessLayer.Interfaces;
 using Document.BusinessLayer.Services;
 using Document.DataAccessLayer;
+using Document.DataAccessLayer.Utilities;
 using Serilog;
 
 namespace Api
@@ -14,21 +15,26 @@ namespace Api
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Add controllers with modified formatters to enforce JSON response
             builder.Services.AddControllers(options =>
             {
+                // Remove XML formatter support to force JSON response
                 options.RespectBrowserAcceptHeader = true;
                 options.OutputFormatters.RemoveType<Microsoft.AspNetCore.Mvc.Formatters.XmlSerializerOutputFormatter>();
             });
 
             builder.Services.AddSingleton<DapperContext>();
+            builder.Services.AddScoped<IDataAccess, DataAccess>();
+
             builder.Services.AddScoped<IDocumentService, DocumentService>();
 
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            // Configure Serilog
             Log.Logger = new LoggerConfiguration()
                 .WriteTo.Console()
-                .WriteTo.File("Logs/document_log.txt", rollingInterval: RollingInterval.Day)
+                .WriteTo.File("Logs/log.txt", rollingInterval: RollingInterval.Day)
                 .Enrich.FromLogContext()
                 .MinimumLevel.Debug()
                 .CreateLogger();

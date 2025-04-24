@@ -5,6 +5,7 @@ using Document.BusinessLayer.Models;
 using System;
 using System.Threading.Tasks;
 using DocumentWCFService;
+using Azure.Core;
 
 namespace Document.Api.Controllers
 {
@@ -22,41 +23,15 @@ namespace Document.Api.Controllers
         }
 
         [HttpGet("GetQuoteDocument")]
-        public async Task<IActionResult> GetQuoteDocument(
-            [FromHeader(Name = "TokenHeader")] string token,
-            [FromQuery] Guid quoteGuid,
-            [FromQuery] Guid eventGuid,
-            [FromQuery] int printTypeId)
+        public async Task<IActionResult> GetQuoteDocumentAsync([FromBody] GenerateAutomationDocumentResultRequest request)
         {
             try
             {
                 _logger.LogInformation("Starting GetQuoteDocument API");
 
-                if (string.IsNullOrWhiteSpace(token))
-                    return BadRequest("TokenHeader is required.");
+                var response = await _documentService.GetQuoteDocument(request);
 
-                var isValid = await _documentService.ValidateTokenAsync(token);
-                if (!isValid)
-                    return Unauthorized("Invalid token.");
-
-                var request = new GetQuoteDocumentRequest
-                {
-                    TokenHeader = token,
-                    QuoteGuid = quoteGuid,
-                    EventGuid = eventGuid,
-                    PrintTypeId = printTypeId
-                };
-
-                var document = await _documentService.GetQuoteDocumentAsync(request);
-
-                if (document == null)
-                {
-                    _logger.LogWarning("Document not found for QuoteGuid: {QuoteGuid}", quoteGuid);
-                    return NotFound("Quote document not found.");
-                }
-
-                _logger.LogInformation("GetQuoteDocument API completed successfully.");
-                return Ok(document);
+                return Ok(response); // ✅ Return the response properly
             }
             catch (Exception ex)
             {
@@ -65,13 +40,17 @@ namespace Document.Api.Controllers
             }
         }
 
+
+
+
+
         [HttpGet("GetIMSToken")]
         public async Task<IActionResult> GenerateIMSToken()
         {
             try
             {
                 _logger.LogInformation("Generating IMS token for Document...");
-                var token = await _documentService.GenerateTokenAsync();
+                var token = await _documentService.GetIMSToken();
                 _logger.LogInformation("Token generated successfully.");
                 return Ok(token);
             }
@@ -80,6 +59,8 @@ namespace Document.Api.Controllers
                 _logger.LogError(ex, "Error while generating IMS token.");
                 return StatusCode(500, "Internal Server Error");
             }
+
         }
     }
 }
+

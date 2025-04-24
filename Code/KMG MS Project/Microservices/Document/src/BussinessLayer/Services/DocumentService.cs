@@ -1,32 +1,37 @@
-﻿using BussinessLayer.Interfaces;
+﻿using System;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
 using Document.BusinessLayer.Interfaces;
 using Document.BusinessLayer.Models;
+using Document.DataAccessLayer;
 using DocumentWCFService;
-using LoginService;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Threading.Tasks;
-using Utilities;
+using DataAccessLayer.Utilities;
+using DocumentLoginService;
+using Azure.Core;
+
 
 namespace Document.BusinessLayer.Services
 {
     public class DocumentService : IDocumentService
     {
-        private readonly BaseUtility utility;
+        private readonly IDataAccess _dataAccess;
+        private readonly BaseUtility _utility;
         private readonly ILogger<DocumentService> _logger;
 
-        public DocumentService(ILogger<DocumentService> logger)
+        public DocumentService(IDataAccess dataAccess, ILogger<DocumentService> logger)
         {
+            _dataAccess = dataAccess;
+            _utility = new BaseUtility();
             _logger = logger;
-            utility = new BaseUtility();
         }
+
 
         public async Task<LoginReturn> GetIMSToken()
         {
             try
             {
                 _logger.LogInformation("Calling BaseUtility.GenerateIMSToken()");
-                return await utility.GenerateIMSToken();
+                return await _utility.GenerateIMSToken();
             }
             catch (Exception ex)
             {
@@ -40,7 +45,7 @@ namespace Document.BusinessLayer.Services
             try
             {
                 _logger.LogInformation("Validating token and userGuid...");
-                var loginResult = await utility.GenerateIMSToken();
+                var loginResult = await _utility.GenerateIMSToken();
 
                 bool isValid = loginResult != null &&
                     string.Equals(loginResult.Token.ToString(), token, StringComparison.OrdinalIgnoreCase) &&
@@ -56,41 +61,53 @@ namespace Document.BusinessLayer.Services
             }
         }
 
-        public async Task<GetQuoteDocumentResponse> GetQuoteDocumentAsync(string token, string userGuid, GetQuoteDocumentRequest request)
+        public async Task<GenerateAutomationDocumentResponse> GetQuoteDocument(GenerateAutomationDocumentResultRequest request)
+
         {
             try
             {
-                _logger.LogInformation("Getting IMS token for GetQuoteDocument...");
+                var loginResult = await GetIMSToken(); // This returns LoginReturn
 
-                var loginResult = await GetIMSToken();
-                if (loginResult == null)
+                string message = "Invalid Operation";
+                GenerateAutomationDocumentResponse response = null;
+                if (loginResult != null)
                 {
-                    _logger.LogWarning("LoginResult was null in GetQuoteDocument");
-                    return null;
+                    DocumentWCFService.TokenHeader header = new DocumentWCFService.TokenHeader();
+                    header.Token = loginResult.Token;
+                    header.Context = loginResult.UserGuid.ToString();
+                    DocumentFunctionsSoapClient qsoapClient = new DocumentFunctionsSoapClient(DocumentFunctionsSoapClient.EndpointConfiguration.DocumentFunctionsSoap);
+                    response = await qsoapClient.GenerateAutomationDocumentAsync(header, request.quoteGuid);
                 }
-
-                // Prepare SOAP TokenHeader
-                var header = new DocumentWCFService.TokenHeader
+                else
                 {
-                    Token = loginResult.Token,
-                    Context = loginResult.UserGuid.ToString()
-                };
-
-                _logger.LogInformation("Calling SOAP GetQuoteDocument with QuoteGuid: {QuoteGuid}, EventGuid: {EventGuid}, PrintTypeId: {PrintTypeId}",
-                    request.QuoteGuid, request.EventGuid, request.PrintTypeId);
-
-                var client = new QuoteFunctionsSoapClient(QuoteFunctionsSoapClient.EndpointConfiguration.QuoteFunctionsSoap);
-                var result = await client.GetQuoteDocumentAsync(header, request.QuoteGuid, request.EventGuid, request.PrintTypeId);
-
-                _logger.LogInformation("SOAP response received successfully.");
-
-                return new GetQuoteDocumentResponse
-                {
-                    DocumentName = result.DocumentName,
-                    DocumentUrl = result.DocumentUrl,
-                    Status = "Success"
-                };
+                    _logger.LogWarning("Login token is null in GetInsured for InsuredGuid: {InsuredGuid}", request);
+                }
+                return response;
             }
+            //try
+            //{
+            //    _logger.LogInformation("Getting IMS token for GetPolicyInformation...");
+            //    var loginResult = await GetIMSToken();
+
+            //    if (loginResult == null)
+            //    {
+            //        _logger.LogWarning("LoginResult was null in GetPolicyInformation");
+            //        return null;
+            //    }
+
+            //    DocumentWCFService.TokenHeader header = new DocumentWCFService.TokenHeader
+            //    {
+            //        Token = loginResult.Token,
+            //        Context = loginResult.UserGuid.ToString()
+            //    };
+
+            //    _logger.LogInformation("Calling SOAP service for QuoteGuid: {QuoteGuid}", quoteGuid, eventGuid, printTypeId);
+            //    QuoteFunctionsSoapClient qsoapClient = new QuoteFunctionsSoapClient(QuoteFunctionsSoapClient.EndpointConfiguration.QuoteFunctionsSoap);
+            //    var response = await qsoapClient.GetControlNumberAsync(header, quoteGuid);
+
+            //    _logger.LogInformation("SOAP response received for QuoteGuid: {QuoteGuid}", quoteGuid, eventGuid, printTypeId);
+            //    return response;
+            //}
             catch (Exception ex)
             {
                 _logger.LogError(ex, "Error in GetQuoteDocumentAsync");

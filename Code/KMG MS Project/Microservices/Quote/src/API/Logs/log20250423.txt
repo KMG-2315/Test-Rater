@@ -1,0 +1,816 @@
+2025-04-23 15:05:45.389 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:05:45.753 +05:30 [DBG] Hosting starting
+2025-04-23 15:05:46.381 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:05:46.389 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:05:46.392 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:05:46.397 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:05:46.403 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:05:46.408 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:05:46.480 +05:30 [DBG] Connection id "0HNC298SS74U4" accepted.
+2025-04-23 15:05:46.480 +05:30 [DBG] Connection id "0HNC298SS74U5" received FIN.
+2025-04-23 15:05:46.480 +05:30 [DBG] Connection id "0HNC298SS74U4" received FIN.
+2025-04-23 15:05:46.480 +05:30 [DBG] Connection id "0HNC298SS74U5" accepted.
+2025-04-23 15:05:46.488 +05:30 [DBG] Connection id "0HNC298SS74U4" started.
+2025-04-23 15:05:46.500 +05:30 [DBG] Connection id "0HNC298SS74U5" started.
+2025-04-23 15:05:46.564 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:05:46.565 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:05:46.679 +05:30 [DBG] Connection id "0HNC298SS74U5" stopped.
+2025-04-23 15:05:46.679 +05:30 [DBG] Connection id "0HNC298SS74U4" stopped.
+2025-04-23 15:05:46.707 +05:30 [DBG] Connection id "0HNC298SS74U5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:05:46.707 +05:30 [DBG] Connection id "0HNC298SS74U4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:05:46.787 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:05:46.793 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:05:46.798 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:05:46.803 +05:30 [DBG] Hosting started
+2025-04-23 15:05:47.768 +05:30 [DBG] Connection id "0HNC298SS74U6" accepted.
+2025-04-23 15:05:47.776 +05:30 [DBG] Connection id "0HNC298SS74U6" started.
+2025-04-23 15:05:47.933 +05:30 [DBG] Connection 0HNC298SS74U6 established using the following protocol: "Tls13"
+2025-04-23 15:05:48.157 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:05:48.525 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:05:48.577 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:05:48.585 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:05:48.753 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:05:48.762 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:05:48.818 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 214.6396 ms
+2025-04-23 15:05:48.835 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:05:48.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:05:48.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:05:48.843 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:05:48.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 749.8123ms
+2025-04-23 15:05:48.912 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 72.5483ms
+2025-04-23 15:05:49.041 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 201.0505ms
+2025-04-23 15:05:49.204 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:05:49.221 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:05:49.225 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:05:49.508 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 278.5225 ms
+2025-04-23 15:05:49.522 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 319.1776ms
+2025-04-23 15:06:14.608 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=1 - null null
+2025-04-23 15:06:14.637 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:06:14.661 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:06:14.673 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:06:14.690 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:06:14.705 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:06:14.813 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:06:14.829 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:06:14.836 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:06:14.846 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:06:14.857 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:06:14.865 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:06:14.880 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:06:14.890 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:06:14.956 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:06:14.970 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:06:14.984 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:06:14.993 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:06:15.002 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:06:15.016 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:06:37.120 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 22240.2888ms
+2025-04-23 15:06:37.134 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:06:37.145 +05:30 [ERR] HTTP GET /quotes responded 500 in 22459.8620 ms
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo(Int32 controlNo) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2025-04-23 15:06:37.182 +05:30 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo(Int32 controlNo) in D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API\Controllers\QuoteController.cs:line 36
+   at lambda_method5(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-04-23 15:06:37.218 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=1 - 500 null text/plain; charset=utf-8 22610.9974ms
+2025-04-23 15:07:12.528 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:07:12.771 +05:30 [DBG] Hosting starting
+2025-04-23 15:07:13.392 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:07:13.401 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:07:13.404 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:07:13.407 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:07:13.410 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:07:13.417 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:07:13.721 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:07:13.727 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:07:13.732 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:07:13.737 +05:30 [DBG] Hosting started
+2025-04-23 15:07:13.844 +05:30 [DBG] Connection id "0HNC299MTC97J" received FIN.
+2025-04-23 15:07:13.844 +05:30 [DBG] Connection id "0HNC299MTC97I" received FIN.
+2025-04-23 15:07:13.844 +05:30 [DBG] Connection id "0HNC299MTC97L" accepted.
+2025-04-23 15:07:13.844 +05:30 [DBG] Connection id "0HNC299MTC97I" accepted.
+2025-04-23 15:07:13.859 +05:30 [DBG] Connection id "0HNC299MTC97L" started.
+2025-04-23 15:07:13.861 +05:30 [DBG] Connection id "0HNC299MTC97I" started.
+2025-04-23 15:07:13.926 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:07:13.926 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:07:14.020 +05:30 [DBG] Connection id "0HNC299MTC97I" stopped.
+2025-04-23 15:07:14.020 +05:30 [DBG] Connection id "0HNC299MTC97L" stopped.
+2025-04-23 15:07:14.037 +05:30 [DBG] Connection id "0HNC299MTC97I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:07:14.037 +05:30 [DBG] Connection id "0HNC299MTC97L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:07:16.011 +05:30 [DBG] Connection id "0HNC299MTC97M" accepted.
+2025-04-23 15:07:16.018 +05:30 [DBG] Connection id "0HNC299MTC97M" started.
+2025-04-23 15:07:16.108 +05:30 [DBG] Connection 0HNC299MTC97M established using the following protocol: "Tls13"
+2025-04-23 15:07:16.286 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:07:16.524 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:07:16.591 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:07:16.600 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:07:16.750 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:07:16.757 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:07:16.814 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 196.2041 ms
+2025-04-23 15:07:16.829 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:07:16.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:07:16.841 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:07:16.841 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:07:16.903 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 637.9249ms
+2025-04-23 15:07:16.904 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 64.0562ms
+2025-04-23 15:07:17.044 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 202.8941ms
+2025-04-23 15:07:17.180 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:07:17.195 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:07:17.200 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:07:17.505 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 300.5064 ms
+2025-04-23 15:07:17.521 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 342.5285ms
+2025-04-23 15:07:26.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=1 - null null
+2025-04-23 15:07:26.109 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:07:26.130 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:07:26.140 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:07:26.155 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:07:26.168 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:07:26.279 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:07:26.293 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:07:26.298 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:07:26.304 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:07:26.311 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:07:26.317 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:07:26.330 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:07:26.336 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:07:26.397 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:07:26.411 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:07:26.421 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:07:26.441 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:07:26.452 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:07:26.472 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:07:26.487 +05:30 [INF] Getting quote for ControlNo: 1
+2025-04-23 15:07:28.683 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:07:28.700 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:07:28.712 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-23 15:07:28.721 +05:30 [INF] Executing OkObjectResult, writing value of type 'Quotes.BusinessLayer.Modal.QuoteModel'.
+2025-04-23 15:07:28.777 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 2440.1015ms
+2025-04-23 15:07:28.789 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:07:28.798 +05:30 [INF] HTTP GET /quotes responded 200 in 2647.3792 ms
+2025-04-23 15:07:28.813 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=1 - 200 null application/json; charset=utf-8 2739.025ms
+2025-04-23 15:09:15.206 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - null null
+2025-04-23 15:09:15.240 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:09:15.250 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:09:15.262 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:09:15.271 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:09:15.277 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:09:15.286 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:09:15.299 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:09:15.310 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:09:15.322 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:09:15.335 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:09:15.348 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:09:15.360 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:09:15.373 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:09:15.386 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:09:15.399 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:09:15.414 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:09:15.425 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:09:15.437 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:09:15.448 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:09:15.455 +05:30 [INF] Getting quote for ControlNo: 7
+2025-04-23 15:09:15.485 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:09:15.506 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:09:15.518 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-23 15:09:15.529 +05:30 [INF] Executing OkObjectResult, writing value of type 'Quotes.BusinessLayer.Modal.QuoteModel'.
+2025-04-23 15:09:15.536 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 176.4335ms
+2025-04-23 15:09:15.563 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:09:15.568 +05:30 [INF] HTTP GET /quotes responded 200 in 297.3997 ms
+2025-04-23 15:09:15.583 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - 200 null application/json; charset=utf-8 380.8296ms
+2025-04-23 15:18:05.915 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:18:06.157 +05:30 [DBG] Hosting starting
+2025-04-23 15:18:06.616 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:18:06.620 +05:30 [DBG] Connection id "0HNC29FPENCCG" accepted.
+2025-04-23 15:18:06.625 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:18:06.622 +05:30 [DBG] Connection id "0HNC29FPENCCH" accepted.
+2025-04-23 15:18:06.641 +05:30 [DBG] Connection id "0HNC29FPENCCH" received FIN.
+2025-04-23 15:18:06.645 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:18:06.648 +05:30 [DBG] Connection id "0HNC29FPENCCH" started.
+2025-04-23 15:18:06.641 +05:30 [DBG] Connection id "0HNC29FPENCCG" received FIN.
+2025-04-23 15:18:06.643 +05:30 [DBG] Connection id "0HNC29FPENCCG" started.
+2025-04-23 15:18:06.656 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:18:06.671 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:18:06.699 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:18:06.727 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:18:06.727 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:18:06.834 +05:30 [DBG] Connection id "0HNC29FPENCCG" stopped.
+2025-04-23 15:18:06.834 +05:30 [DBG] Connection id "0HNC29FPENCCH" stopped.
+2025-04-23 15:18:06.855 +05:30 [DBG] Connection id "0HNC29FPENCCG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:18:06.856 +05:30 [DBG] Connection id "0HNC29FPENCCH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:18:07.096 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:18:07.105 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:18:07.110 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:18:07.115 +05:30 [DBG] Hosting started
+2025-04-23 15:18:09.279 +05:30 [DBG] Connection id "0HNC29FPENCCI" accepted.
+2025-04-23 15:18:09.285 +05:30 [DBG] Connection id "0HNC29FPENCCI" started.
+2025-04-23 15:18:09.435 +05:30 [DBG] Connection 0HNC29FPENCCI established using the following protocol: "Tls13"
+2025-04-23 15:18:09.738 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:18:11.152 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:18:11.216 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:18:11.225 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:18:11.430 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:18:11.442 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:18:11.508 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 260.8979 ms
+2025-04-23 15:18:11.521 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:18:11.526 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:18:11.539 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 1831.2446ms
+2025-04-23 15:18:11.597 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:18:11.604 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:18:11.632 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 35.2052ms
+2025-04-23 15:18:11.757 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 152.729ms
+2025-04-23 15:18:11.985 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:18:12.004 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:18:12.009 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:18:12.319 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 304.1506 ms
+2025-04-23 15:18:12.335 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 350.8919ms
+2025-04-23 15:18:20.595 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - null null
+2025-04-23 15:18:20.621 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:18:20.637 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:18:20.651 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:18:20.665 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:18:20.677 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:18:20.799 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:18:20.816 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:18:20.822 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:18:20.831 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:18:20.837 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:18:20.847 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:18:20.858 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:18:20.867 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:18:20.928 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:18:20.944 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:18:20.960 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:18:20.968 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:18:20.977 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:18:20.988 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:18:21.007 +05:30 [INF] Getting quote for ControlNo: 7
+2025-04-23 15:18:22.594 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:18:22.611 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:18:22.624 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-23 15:18:22.631 +05:30 [INF] Executing OkObjectResult, writing value of type 'Quotes.BusinessLayer.Modal.QuoteModel'.
+2025-04-23 15:18:22.695 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 1829.4083ms
+2025-04-23 15:18:22.704 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:18:22.712 +05:30 [INF] HTTP GET /quotes responded 200 in 2050.5229 ms
+2025-04-23 15:18:22.723 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - 200 null application/json; charset=utf-8 2127.6589ms
+2025-04-23 15:23:51.317 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:23:51.533 +05:30 [DBG] Hosting starting
+2025-04-23 15:23:52.055 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:23:52.063 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:23:52.069 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:23:52.074 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:23:52.077 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:23:52.081 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:23:52.141 +05:30 [DBG] Connection id "0HNC29J0DSJ9A" accepted.
+2025-04-23 15:23:52.141 +05:30 [DBG] Connection id "0HNC29J0DSJ9B" accepted.
+2025-04-23 15:23:52.157 +05:30 [DBG] Connection id "0HNC29J0DSJ9A" started.
+2025-04-23 15:23:52.162 +05:30 [DBG] Connection id "0HNC29J0DSJ9B" started.
+2025-04-23 15:23:52.159 +05:30 [DBG] Connection id "0HNC29J0DSJ9A" received FIN.
+2025-04-23 15:23:52.159 +05:30 [DBG] Connection id "0HNC29J0DSJ9B" received FIN.
+2025-04-23 15:23:52.219 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:23:52.219 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:23:52.316 +05:30 [DBG] Connection id "0HNC29J0DSJ9A" stopped.
+2025-04-23 15:23:52.317 +05:30 [DBG] Connection id "0HNC29J0DSJ9B" stopped.
+2025-04-23 15:23:52.337 +05:30 [DBG] Connection id "0HNC29J0DSJ9A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:23:52.337 +05:30 [DBG] Connection id "0HNC29J0DSJ9B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:23:52.339 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:23:52.356 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:23:52.360 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:23:52.362 +05:30 [DBG] Hosting started
+2025-04-23 15:23:56.061 +05:30 [DBG] Connection id "0HNC29J0DSJ9C" accepted.
+2025-04-23 15:23:56.069 +05:30 [DBG] Connection id "0HNC29J0DSJ9C" started.
+2025-04-23 15:23:56.157 +05:30 [DBG] Connection 0HNC29J0DSJ9C established using the following protocol: "Tls13"
+2025-04-23 15:23:56.420 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:23:56.726 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:23:56.783 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:23:56.791 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:23:56.965 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:23:56.971 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:23:57.039 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 224.4488 ms
+2025-04-23 15:23:57.056 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:23:57.064 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:23:57.073 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:23:57.092 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:23:57.110 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 712.6795ms
+2025-04-23 15:23:57.142 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 69.5564ms
+2025-04-23 15:23:57.287 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 195.626ms
+2025-04-23 15:23:57.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:23:57.441 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:23:57.445 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:23:57.706 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 256.1341 ms
+2025-04-23 15:23:57.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 290.3865ms
+2025-04-23 15:24:08.339 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - null null
+2025-04-23 15:24:08.372 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:24:08.395 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:24:08.410 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:24:08.430 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:24:08.445 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:24:08.555 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:24:08.585 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:24:08.598 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:24:08.610 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:24:08.626 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:24:08.639 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:24:08.653 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:24:08.666 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:24:08.725 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:24:08.744 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:24:08.761 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:24:08.771 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:24:08.781 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:24:08.800 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:24:08.815 +05:30 [INF] Getting quote for ControlNo: 7
+2025-04-23 15:24:10.286 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:24:10.301 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:24:10.310 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-23 15:24:10.318 +05:30 [INF] Executing OkObjectResult, writing value of type 'Quotes.BusinessLayer.Modal.QuoteModel'.
+2025-04-23 15:24:10.375 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 1715.8228ms
+2025-04-23 15:24:10.382 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:24:10.387 +05:30 [INF] HTTP GET /quotes responded 200 in 1961.7136 ms
+2025-04-23 15:24:10.395 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - 200 null application/json; charset=utf-8 2058.0271ms
+2025-04-23 15:25:51.822 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:25:52.052 +05:30 [DBG] Hosting starting
+2025-04-23 15:25:52.695 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:25:52.701 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:25:52.705 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:25:52.708 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:25:52.712 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:25:52.716 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:25:52.999 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:25:53.012 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:25:53.019 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:25:53.021 +05:30 [DBG] Connection id "0HNC29K4ELTAG" received FIN.
+2025-04-23 15:25:53.021 +05:30 [DBG] Connection id "0HNC29K4ELTAH" received FIN.
+2025-04-23 15:25:53.025 +05:30 [DBG] Hosting started
+2025-04-23 15:25:53.050 +05:30 [DBG] Connection id "0HNC29K4ELTAH" accepted.
+2025-04-23 15:25:53.050 +05:30 [DBG] Connection id "0HNC29K4ELTAG" accepted.
+2025-04-23 15:25:53.056 +05:30 [DBG] Connection id "0HNC29K4ELTAH" started.
+2025-04-23 15:25:53.061 +05:30 [DBG] Connection id "0HNC29K4ELTAG" started.
+2025-04-23 15:25:53.125 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:25:53.125 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:25:53.234 +05:30 [DBG] Connection id "0HNC29K4ELTAG" stopped.
+2025-04-23 15:25:53.234 +05:30 [DBG] Connection id "0HNC29K4ELTAH" stopped.
+2025-04-23 15:25:53.260 +05:30 [DBG] Connection id "0HNC29K4ELTAG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:25:53.260 +05:30 [DBG] Connection id "0HNC29K4ELTAH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:25:54.179 +05:30 [DBG] Connection id "0HNC29K4ELTAI" accepted.
+2025-04-23 15:25:54.184 +05:30 [DBG] Connection id "0HNC29K4ELTAI" started.
+2025-04-23 15:25:54.273 +05:30 [DBG] Connection 0HNC29K4ELTAI established using the following protocol: "Tls13"
+2025-04-23 15:25:54.456 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:25:54.716 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:25:54.779 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:25:54.786 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:25:54.964 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:25:54.972 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:25:55.049 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:25:55.046 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 238.5809 ms
+2025-04-23 15:25:55.052 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:25:55.099 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:25:55.105 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 53.6468ms
+2025-04-23 15:25:55.114 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:25:55.152 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 721.2103ms
+2025-04-23 15:25:55.247 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 194.7884ms
+2025-04-23 15:25:55.355 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:25:55.371 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:25:55.377 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:25:55.618 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 234.7411 ms
+2025-04-23 15:25:55.630 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 275.6067ms
+2025-04-23 15:26:03.610 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - null null
+2025-04-23 15:26:03.644 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:26:03.665 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:26:03.677 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:26:03.692 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:26:03.703 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:26:03.804 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:26:03.819 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:26:03.826 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:26:03.844 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:26:03.855 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:26:03.862 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:26:03.874 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:26:03.893 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:26:03.956 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:26:03.971 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:26:03.982 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:26:03.989 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:26:03.992 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:26:04.005 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:26:04.019 +05:30 [INF] Getting quote for ControlNo: 7
+2025-04-23 15:26:05.436 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:26:05.455 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:26:05.465 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-23 15:26:05.474 +05:30 [INF] Executing OkObjectResult, writing value of type 'Quotes.BusinessLayer.Modal.QuoteModel'.
+2025-04-23 15:26:05.539 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 1653.8563ms
+2025-04-23 15:26:05.550 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:26:05.557 +05:30 [INF] HTTP GET /quotes responded 200 in 1869.2069 ms
+2025-04-23 15:26:05.566 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - 200 null application/json; charset=utf-8 1955.9372ms
+2025-04-23 15:26:15.434 +05:30 [DBG] Connection id "0HNC29K4ELTAI" received FIN.
+2025-04-23 15:26:15.446 +05:30 [DBG] The connection queue processing loop for 0HNC29K4ELTAI completed.
+2025-04-23 15:26:15.454 +05:30 [DBG] Connection id "0HNC29K4ELTAI" is closed. The last processed stream ID was 9.
+2025-04-23 15:26:15.461 +05:30 [DBG] Connection id "0HNC29K4ELTAI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:26:15.474 +05:30 [DBG] Connection id "0HNC29K4ELTAI" stopped.
+2025-04-23 15:31:41.168 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:31:41.438 +05:30 [DBG] Hosting starting
+2025-04-23 15:31:42.161 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:31:42.169 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:31:42.182 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:31:42.188 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:31:42.191 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:31:42.193 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:31:42.294 +05:30 [DBG] Connection id "0HNC29NCHF6V1" accepted.
+2025-04-23 15:31:42.294 +05:30 [DBG] Connection id "0HNC29NCHF6V1" received FIN.
+2025-04-23 15:31:42.294 +05:30 [DBG] Connection id "0HNC29NCHF6V0" accepted.
+2025-04-23 15:31:42.294 +05:30 [DBG] Connection id "0HNC29NCHF6V0" received FIN.
+2025-04-23 15:31:42.324 +05:30 [DBG] Connection id "0HNC29NCHF6V0" started.
+2025-04-23 15:31:42.313 +05:30 [DBG] Connection id "0HNC29NCHF6V1" started.
+2025-04-23 15:31:42.398 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:31:42.398 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:31:42.509 +05:30 [DBG] Connection id "0HNC29NCHF6V0" stopped.
+2025-04-23 15:31:42.510 +05:30 [DBG] Connection id "0HNC29NCHF6V1" stopped.
+2025-04-23 15:31:42.536 +05:30 [DBG] Connection id "0HNC29NCHF6V1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:31:42.536 +05:30 [DBG] Connection id "0HNC29NCHF6V0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:31:42.594 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:31:42.602 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:31:42.606 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:31:42.609 +05:30 [DBG] Hosting started
+2025-04-23 15:31:44.581 +05:30 [DBG] Connection id "0HNC29NCHF6V2" accepted.
+2025-04-23 15:31:44.587 +05:30 [DBG] Connection id "0HNC29NCHF6V2" started.
+2025-04-23 15:31:44.802 +05:30 [DBG] Connection 0HNC29NCHF6V2 established using the following protocol: "Tls13"
+2025-04-23 15:31:44.968 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:31:45.235 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:31:45.286 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:31:45.293 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:31:45.452 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:31:45.462 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:31:45.518 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 207.4200 ms
+2025-04-23 15:31:45.534 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:31:45.540 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:31:45.553 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:31:45.554 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:31:45.557 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 601.637ms
+2025-04-23 15:31:45.581 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 28.3514ms
+2025-04-23 15:31:45.708 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 154.6847ms
+2025-04-23 15:31:45.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:31:45.835 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:31:45.839 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:31:46.129 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 285.2865 ms
+2025-04-23 15:31:46.144 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 321.9606ms
+2025-04-23 15:31:52.095 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - null null
+2025-04-23 15:31:52.126 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:31:52.187 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:31:52.199 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:31:52.228 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:31:52.241 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:31:52.393 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:31:52.408 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:31:52.414 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:31:52.421 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:31:52.428 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:31:52.437 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:31:52.447 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:31:52.455 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:31:52.523 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:31:52.536 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:31:52.545 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:31:52.556 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:31:52.565 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:31:52.578 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:31:52.632 +05:30 [INF] Getting quote for ControlNo: 7
+2025-04-23 15:32:05.718 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:32:05.732 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:32:05.743 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-23 15:32:05.752 +05:30 [INF] Executing OkObjectResult, writing value of type 'Quotes.BusinessLayer.Modal.QuoteModel'.
+2025-04-23 15:32:05.809 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 13358.5895ms
+2025-04-23 15:32:05.821 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:32:05.832 +05:30 [INF] HTTP GET /quotes responded 200 in 13608.1449 ms
+2025-04-23 15:32:05.849 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - 200 null application/json; charset=utf-8 13754.3805ms
+2025-04-23 15:37:09.205 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:37:09.537 +05:30 [DBG] Hosting starting
+2025-04-23 15:37:10.073 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:37:10.081 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:37:10.082 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:37:10.084 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:37:10.088 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:37:10.092 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:37:10.285 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:37:10.293 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:37:10.297 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:37:10.299 +05:30 [DBG] Hosting started
+2025-04-23 15:37:10.413 +05:30 [DBG] Connection id "0HNC29QEAPH88" received FIN.
+2025-04-23 15:37:10.413 +05:30 [DBG] Connection id "0HNC29QEAPH87" received FIN.
+2025-04-23 15:37:10.419 +05:30 [DBG] Connection id "0HNC29QEAPH88" accepted.
+2025-04-23 15:37:10.419 +05:30 [DBG] Connection id "0HNC29QEAPH87" accepted.
+2025-04-23 15:37:10.436 +05:30 [DBG] Connection id "0HNC29QEAPH88" started.
+2025-04-23 15:37:10.440 +05:30 [DBG] Connection id "0HNC29QEAPH87" started.
+2025-04-23 15:37:10.502 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:37:10.502 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:37:10.621 +05:30 [DBG] Connection id "0HNC29QEAPH88" stopped.
+2025-04-23 15:37:10.621 +05:30 [DBG] Connection id "0HNC29QEAPH87" stopped.
+2025-04-23 15:37:10.648 +05:30 [DBG] Connection id "0HNC29QEAPH87" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:37:10.648 +05:30 [DBG] Connection id "0HNC29QEAPH88" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:37:12.470 +05:30 [DBG] Connection id "0HNC29QEAPH89" accepted.
+2025-04-23 15:37:12.479 +05:30 [DBG] Connection id "0HNC29QEAPH89" started.
+2025-04-23 15:37:12.588 +05:30 [DBG] Connection 0HNC29QEAPH89 established using the following protocol: "Tls13"
+2025-04-23 15:37:12.789 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:37:13.066 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:37:13.116 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:37:13.122 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:37:13.300 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:37:13.311 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:37:13.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:37:13.422 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 277.3395 ms
+2025-04-23 15:37:13.454 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:37:13.497 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:37:13.506 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:37:13.511 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 80.935ms
+2025-04-23 15:37:13.517 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 758.616ms
+2025-04-23 15:37:13.695 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 241.7344ms
+2025-04-23 15:37:13.830 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:37:13.931 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:37:13.938 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:37:14.318 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 373.6184 ms
+2025-04-23 15:37:14.332 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 504.0132ms
+2025-04-23 15:37:21.342 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - null null
+2025-04-23 15:37:21.375 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:37:21.396 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:37:21.408 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:37:21.426 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:37:21.441 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:37:21.540 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:37:21.553 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:37:21.564 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:37:21.572 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:37:21.599 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:37:21.608 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:37:21.629 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:37:21.644 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:37:21.708 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:37:21.723 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:37:21.732 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:37:21.741 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:37:21.745 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:37:21.757 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:37:21.770 +05:30 [INF] Getting quote for ControlNo: 7
+2025-04-23 15:37:48.926 +05:30 [ERR] Error in GetQuoteByControlNo
+System.Data.DataException: Error parsing column 5 (ControlGuid=bfbd987e-82d0-4eac-825e-c7689cf5a75c - Guid)
+ ---> System.InvalidCastException: Object must implement IConvertible.
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserialize589c555c-4fbc-4c82-95a1-4e238da7fff2(DbDataReader)
+   --- End of inner exception stack trace ---
+   at Dapper.SqlMapper.ThrowDataException(Exception ex, Int32 index, IDataReader reader, Object value) in /_/Dapper/SqlMapper.cs:line 3966
+   at Deserialize589c555c-4fbc-4c82-95a1-4e238da7fff2(DbDataReader)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command)
+   at Quotes.DataAccessLayer.DataAccess.QuerySingleAsync[T](String sql, Object parameters)
+   at Quotes.BusinessLayer.Services.QuoteService.GetQuoteByControlNoAsync(Int32 controlNo)
+   at Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo(Int32 controlNo)
+2025-04-23 15:37:48.979 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:37:48.998 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:37:49.009 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2025-04-23 15:37:49.020 +05:30 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2025-04-23 15:37:49.041 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 27416.6805ms
+2025-04-23 15:37:49.045 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:37:49.048 +05:30 [ERR] HTTP GET /quotes responded 500 in 27628.3247 ms
+2025-04-23 15:37:49.060 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - 500 null text/plain; charset=utf-8 27718.119ms
+2025-04-23 15:40:52.472 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:40:52.718 +05:30 [DBG] Hosting starting
+2025-04-23 15:40:53.420 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:40:53.428 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:40:53.433 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:40:53.437 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:40:53.442 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:40:53.445 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:40:53.777 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:40:53.783 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:40:53.787 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:40:53.788 +05:30 [DBG] Connection id "0HNC29SGT286E" received FIN.
+2025-04-23 15:40:53.788 +05:30 [DBG] Connection id "0HNC29SGT286F" received FIN.
+2025-04-23 15:40:53.790 +05:30 [DBG] Hosting started
+2025-04-23 15:40:53.815 +05:30 [DBG] Connection id "0HNC29SGT286E" accepted.
+2025-04-23 15:40:53.815 +05:30 [DBG] Connection id "0HNC29SGT286F" accepted.
+2025-04-23 15:40:53.821 +05:30 [DBG] Connection id "0HNC29SGT286E" started.
+2025-04-23 15:40:53.822 +05:30 [DBG] Connection id "0HNC29SGT286F" started.
+2025-04-23 15:40:53.878 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:40:53.878 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:40:53.980 +05:30 [DBG] Connection id "0HNC29SGT286E" stopped.
+2025-04-23 15:40:53.981 +05:30 [DBG] Connection id "0HNC29SGT286F" stopped.
+2025-04-23 15:40:53.999 +05:30 [DBG] Connection id "0HNC29SGT286E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:40:53.999 +05:30 [DBG] Connection id "0HNC29SGT286F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:40:54.913 +05:30 [DBG] Connection id "0HNC29SGT286G" accepted.
+2025-04-23 15:40:54.921 +05:30 [DBG] Connection id "0HNC29SGT286G" started.
+2025-04-23 15:40:55.013 +05:30 [DBG] Connection 0HNC29SGT286G established using the following protocol: "Tls13"
+2025-04-23 15:40:55.216 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:40:55.496 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:40:55.554 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:40:55.562 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:40:55.738 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:40:55.749 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:40:55.822 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 240.8736 ms
+2025-04-23 15:40:55.835 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:40:55.842 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:40:55.858 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 669.5766ms
+2025-04-23 15:40:55.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:40:55.893 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:40:56.045 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 152.6285ms
+2025-04-23 15:40:56.140 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 248.2906ms
+2025-04-23 15:40:56.313 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:40:56.325 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:40:56.329 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:40:56.652 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 318.3585 ms
+2025-04-23 15:40:56.666 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 353.9052ms
+2025-04-23 15:48:54.387 +05:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-04-23 15:48:54.640 +05:30 [DBG] Hosting starting
+2025-04-23 15:48:55.103 +05:30 [INF] Now listening on: https://localhost:7198
+2025-04-23 15:48:55.110 +05:30 [INF] Now listening on: http://localhost:5259
+2025-04-23 15:48:55.115 +05:30 [DBG] Loaded hosting startup assembly API
+2025-04-23 15:48:55.118 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-04-23 15:48:55.123 +05:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-04-23 15:48:55.127 +05:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-04-23 15:48:55.181 +05:30 [DBG] Connection id "0HNC2A10BVH25" accepted.
+2025-04-23 15:48:55.181 +05:30 [DBG] Connection id "0HNC2A10BVH24" received FIN.
+2025-04-23 15:48:55.182 +05:30 [DBG] Connection id "0HNC2A10BVH24" accepted.
+2025-04-23 15:48:55.181 +05:30 [DBG] Connection id "0HNC2A10BVH25" received FIN.
+2025-04-23 15:48:55.224 +05:30 [DBG] Connection id "0HNC2A10BVH24" started.
+2025-04-23 15:48:55.217 +05:30 [DBG] Connection id "0HNC2A10BVH25" started.
+2025-04-23 15:48:55.292 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:48:55.292 +05:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-04-23 15:48:55.382 +05:30 [DBG] Connection id "0HNC2A10BVH24" stopped.
+2025-04-23 15:48:55.382 +05:30 [DBG] Connection id "0HNC2A10BVH25" stopped.
+2025-04-23 15:48:55.401 +05:30 [DBG] Connection id "0HNC2A10BVH25" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:48:55.401 +05:30 [DBG] Connection id "0HNC2A10BVH24" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-04-23 15:48:55.471 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-04-23 15:48:55.478 +05:30 [INF] Hosting environment: Development
+2025-04-23 15:48:55.485 +05:30 [INF] Content root path: D:\TestRater1\Test-Rater\Code\KMG MS Project\Microservices\Quote\src\API
+2025-04-23 15:48:55.491 +05:30 [DBG] Hosting started
+2025-04-23 15:48:56.580 +05:30 [DBG] Connection id "0HNC2A10BVH26" accepted.
+2025-04-23 15:48:56.590 +05:30 [DBG] Connection id "0HNC2A10BVH26" started.
+2025-04-23 15:48:56.717 +05:30 [DBG] Connection 0HNC2A10BVH26 established using the following protocol: "Tls13"
+2025-04-23 15:48:56.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/index.html - null null
+2025-04-23 15:48:57.144 +05:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-04-23 15:48:57.190 +05:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-04-23 15:48:57.201 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:48:57.345 +05:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-04-23 15:48:57.350 +05:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-04-23 15:48:57.393 +05:30 [INF] HTTP GET /swagger/index.html responded 200 in 169.3973 ms
+2025-04-23 15:48:57.410 +05:30 [DBG] Response markup was updated to include Browser Link script injection.
+2025-04-23 15:48:57.414 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - null null
+2025-04-23 15:48:57.415 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/_vs/browserLink - null null
+2025-04-23 15:48:57.421 +05:30 [DBG] Response markup was updated to include browser refresh script injection.
+2025-04-23 15:48:57.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_framework/aspnetcore-browser-refresh.js - 200 13742 application/javascript; charset=utf-8 37.3854ms
+2025-04-23 15:48:57.456 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/index.html - 200 null text/html;charset=utf-8 571.9246ms
+2025-04-23 15:48:57.549 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/_vs/browserLink - 200 null text/javascript; charset=UTF-8 134.9167ms
+2025-04-23 15:48:57.698 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - null null
+2025-04-23 15:48:57.717 +05:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-04-23 15:48:57.722 +05:30 [DBG] Request did not match any endpoints
+2025-04-23 15:48:58.020 +05:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 292.4790 ms
+2025-04-23 15:48:58.033 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 336.1942ms
+2025-04-23 15:49:04.406 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - null null
+2025-04-23 15:49:04.443 +05:30 [DBG] 1 candidate(s) found for the request path '/quotes'
+2025-04-23 15:49:04.476 +05:30 [DBG] Endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)' with route pattern 'quotes' is valid for the request path '/quotes'
+2025-04-23 15:49:04.487 +05:30 [DBG] Request matched endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:49:04.504 +05:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-04-23 15:49:04.516 +05:30 [INF] Executing endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:49:04.636 +05:30 [INF] Route matched with {action = "GetQuoteByControlNo", controller = "Quote"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetQuoteByControlNo(Int32) on controller Quotes.Api.Controllers.QuoteController (API).
+2025-04-23 15:49:04.652 +05:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-04-23 15:49:04.664 +05:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-04-23 15:49:04.673 +05:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-04-23 15:49:04.684 +05:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-04-23 15:49:04.706 +05:30 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-04-23 15:49:04.732 +05:30 [DBG] Executing controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:49:04.742 +05:30 [DBG] Executed controller factory for controller Quotes.Api.Controllers.QuoteController (API)
+2025-04-23 15:49:04.895 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:49:04.908 +05:30 [DBG] Attempting to bind parameter 'controlNo' of type 'System.Int32' using the name 'controlNo' in request data ...
+2025-04-23 15:49:04.921 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:49:04.927 +05:30 [DBG] Done attempting to bind parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:49:04.932 +05:30 [DBG] Attempting to validate the bound parameter 'controlNo' of type 'System.Int32' ...
+2025-04-23 15:49:04.943 +05:30 [DBG] Done attempting to validate the bound parameter 'controlNo' of type 'System.Int32'.
+2025-04-23 15:49:04.957 +05:30 [INF] Getting quote for ControlNo: 7
+2025-04-23 15:49:09.284 +05:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-04-23 15:49:09.308 +05:30 [DBG] Attempting to select an output formatter based on Accept header '["*/*"]'.
+2025-04-23 15:49:09.325 +05:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-04-23 15:49:09.337 +05:30 [INF] Executing OkObjectResult, writing value of type 'Quotes.BusinessLayer.Modal.QuoteModel'.
+2025-04-23 15:49:09.548 +05:30 [INF] Executed action Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API) in 4810.1729ms
+2025-04-23 15:49:09.562 +05:30 [INF] Executed endpoint 'Quotes.Api.Controllers.QuoteController.GetQuoteByControlNo (API)'
+2025-04-23 15:49:09.573 +05:30 [INF] HTTP GET /quotes responded 200 in 5073.3040 ms
+2025-04-23 15:49:09.589 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7198/quotes?controlNo=7 - 200 null application/json; charset=utf-8 5182.6007ms

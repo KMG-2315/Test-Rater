@@ -79,17 +79,12 @@ namespace Quotes.Api.Controllers
 
         [HttpGet("GetQuoteData")]
         public async Task<IActionResult> GetQuoteData(
-                    [FromQuery] int controlNo,
-                    [FromHeader] string token,
-                    [FromHeader] string userGuid)
+                    [FromQuery] int controlNo)
+                   
         {
             try
             {
-                if (string.IsNullOrWhiteSpace(token) || string.IsNullOrWhiteSpace(userGuid))
-                    return BadRequest("Token and UserGuid are required.");
-
-                _logger.LogInformation("Validating token for UserGuid: {UserGuid}", userGuid);
-                var authResult = await _quoteService.ValidateTokenAsync(token, userGuid);
+                
 
                 var quote = await _quoteService.GetQuoteByControlNoAsync(controlNo);
                 if (quote == null)
@@ -107,43 +102,43 @@ namespace Quotes.Api.Controllers
             }
         }
 
-        [HttpGet("GetPolicyInfo/{quoteGuid}")]
-        public async Task<IActionResult> GetPolicyInfo(Guid quoteGuid)
-        {
-            try
-            {
-                _logger.LogInformation("Starting to retrieve policy details for QuoteGuid: {QuoteGuid}", quoteGuid);
+        //[HttpGet("GetPolicyInfo/{quoteGuid}")]
+        //public async Task<IActionResult> GetPolicyInfo(Guid quoteGuid)
+        //{
+        //    try
+        //    {
+        //        _logger.LogInformation("Starting to retrieve policy details for QuoteGuid: {QuoteGuid}", quoteGuid);
 
-                var policyData = await _quoteService.GetPolicyInformation(quoteGuid);
+        //        var policyData = await _quoteService.GetPolicyInformation(quoteGuid);
 
-                if (policyData?.GetPolicyInformationResult == null)
-                {
-                    _logger.LogWarning("No policy data found corresponding to QuoteGuid: {QuoteGuid}", quoteGuid);
-                    return NotFound("Policy information not available.");
-                }
+        //        if (policyData?.GetPolicyInformationResult == null)
+        //        {
+        //            _logger.LogWarning("No policy data found corresponding to QuoteGuid: {QuoteGuid}", quoteGuid);
+        //            return NotFound("Policy information not available.");
+        //        }
 
-                // Deserialize XML to Policy object
-                var xmlString = policyData.GetPolicyInformationResult;
-                var policyObject = ConvertXmlToPolicy(xmlString);
+        //        // Deserialize XML to Policy object
+        //        //var xmlString = policyData.GetPolicyInformationResult;
+        //        //var policyObject = ConvertXmlToPolicy(xmlString);
 
-                _logger.LogInformation("Successfully retrieved policy information for QuoteGuid: {QuoteGuid}");
-                return Ok(policyObject);  // ✅ JSON output
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError(ex, "Exception occurred while retrieving policy info for QuoteGuid: {QuoteGuid}", quoteGuid);
-                return StatusCode(500, "Something went wrong while fetching policy data.");
-            }
-        }
+        //        _logger.LogInformation("Successfully retrieved policy information for QuoteGuid: {QuoteGuid}");
+        //        return Ok(policyObject);  // ✅ JSON output
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        _logger.LogError(ex, "Exception occurred while retrieving policy info for QuoteGuid: {QuoteGuid}", quoteGuid);
+        //        return StatusCode(500, "Something went wrong while fetching policy data.");
+        //    }
+        //}
 
         // Helper method to convert XML to Policy object
-        private Policy ConvertXmlToPolicy(string xml)
-        {
-            var serializer = new XmlSerializer(typeof(Policy));
-            using (var reader = new StringReader(xml))
-            {
-                return (Policy)serializer.Deserialize(reader);
-            }
-        }
+        //private Policy ConvertXmlToPolicy(string xml)
+        //{
+        //    var serializer = new XmlSerializer(typeof(Policy));
+        //    using (var reader = new StringReader(xml))
+        //    {
+        //        return (Policy)serializer.Deserialize(reader);
+        //    }
+        //}
     }
 }

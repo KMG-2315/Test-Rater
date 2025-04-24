@@ -3,10 +3,10 @@
   "WorkspaceRootPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\RaterApis\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\services\\quoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\services\\quoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\modal\\quotemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5587D179-58DD-420C-8AAD-B24E36926B84}|..\\Microservices\\Document\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\api\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -15,46 +15,64 @@
       "AbsoluteMoniker": "D:0:0:{00DCA6FE-B97D-497C-B33A-805E05572EC8}|..\\Microservices\\Quote\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\api\\controllers\\quotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\services\\documentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\utilities\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\connected services\\documentwcfservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\utilities\\baseutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\connected services\\quotewcfservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\connected services\\documentwcfservice\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5587D179-58DD-420C-8AAD-B24E36926B84}|..\\Microservices\\Document\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5587D179-58DD-420C-8AAD-B24E36926B84}|..\\Microservices\\Document\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F9E21BA-E84F-4CAE-A874-614C59F350A0}|..\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\dataaccesslayer\\utilities\\baseutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\interfaces\\iquoteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\connected services\\loginservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{00DCA6FE-B97D-497C-B33A-805E05572EC8}|..\\Microservices\\Quote\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\connected services\\loginservice\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\modal\\generateautomationdocumentresultrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\interfaces\\idocumentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\connected services\\documentloginservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\utilities\\baseutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\idataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5587D179-58DD-420C-8AAD-B24E36926B84}|..\\Microservices\\Document\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\connected services\\documentloginservice\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\bussinesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5587D179-58DD-420C-8AAD-B24E36926B84}|..\\Microservices\\Document\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\modal\\getquotedocumentrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\utilities\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E7514A-DAE1-408A-9DBF-7449D548F89B}|..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\dataaccesslayer\\dataaccesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC83E275-C354-4B4B-8A72-673E256C6AEC}|..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\document\\src\\bussinesslayer\\modal\\getquotedocumentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F9E21BA-E84F-4CAE-A874-614C59F350A0}|..\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\dataaccesslayer\\connected services\\loginservice\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -63,13 +81,7 @@
       "AbsoluteMoniker": "D:0:0:{0F9E21BA-E84F-4CAE-A874-614C59F350A0}|..\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\dataaccesslayer\\connected services\\loginservice\\connectedservice.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00DCA6FE-B97D-497C-B33A-805E05572EC8}|..\\Microservices\\Quote\\src\\API\\API.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\modal\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F46B50B-6F16-44ED-B404-1EC1580FD6B8}|..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj|d:\\testrater1\\test-rater\\code\\kmg ms project\\microservices\\quote\\src\\bussinesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,111 +91,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "QuoteModel.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\QuoteModel.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\QuoteModel.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\QuoteModel.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\QuoteModel.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAiwIYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T10:04:30.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DocumentService.cs",
               "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Services\\DocumentService.cs",
               "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Services\\DocumentService.cs",
               "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Services\\DocumentService.cs",
               "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Services\\DocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:18:21.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseUtility.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T07:45:27.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DapperContext.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T07:46:32.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ConnectedService.json",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\ConnectedService.json",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\ConnectedService.json",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\ConnectedService.json",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\ConnectedService.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T09:09:44.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Reference.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Connected Services\\QuoteWCFService\\Reference.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Connected Services\\QuoteWCFService\\Reference.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Connected Services\\QuoteWCFService\\Reference.cs",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Connected Services\\QuoteWCFService\\Reference.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:58:18.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "QuoteService.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T05:17:10.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DataAccessLayer",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-21T07:36:26.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "QuoteController.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAswAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:54:52.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T09:18:21.788Z"
             },
             {
               "$type": "Document",
@@ -193,53 +125,182 @@
               "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\API\\Controllers\\DocumentController.cs",
               "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\API\\Controllers\\DocumentController.cs",
               "RelativeToolTip": "..\\Microservices\\Document\\src\\API\\Controllers\\DocumentController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T05:56:36.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T05:56:36.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IDataAccess.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "QuoteService.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Services\\QuoteService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T08:58:30.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DataAccess.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T08:57:42.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\API\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\API\\Program.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\API\\Program.cs",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T06:18:47.432Z",
+              "WhenOpened": "2025-04-18T05:17:10.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "BaseUtility.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:45:27.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\API\\Program.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\API\\Program.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T06:18:47.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuoteController.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\API\\Controllers\\QuoteController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAwFgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:54:52.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\API\\Program.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Program.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T06:31:29.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IQuoteService.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAcwA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:58:13.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseUtility.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Utilities\\BaseUtility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:19:40.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\Reference.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\Reference.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\Reference.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Connected Services\\DocumentWCFService\\Reference.cs",
+              "ViewState": "AgIAABQKAAAAAAAAAAAQwAwKAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:26:16.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\Reference.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\Reference.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\Reference.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\Reference.cs",
+              "ViewState": "AgIAAFoCAAAAAAAAAAAqwAIDAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T08:53:42.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDocumentService.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:14:03.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenerateAutomationDocumentResultRequest.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GenerateAutomationDocumentResultRequest.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GenerateAutomationDocumentResultRequest.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GenerateAutomationDocumentResultRequest.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GenerateAutomationDocumentResultRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T10:51:11.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IDataAccess.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\IDataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T08:58:30.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConnectedService.json",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\ConnectedService.json",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\ConnectedService.json",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\ConnectedService.json",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\DocumentLoginService\\ConnectedService.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-21T08:51:53.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BussinessLayer.csproj",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-21T09:03:46.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\API\\appsettings.json",
               "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\API\\appsettings.json",
@@ -247,129 +308,71 @@
               "RelativeToolTip": "..\\Microservices\\Document\\src\\API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T06:25:25.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IDocumentService.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Interfaces\\IDocumentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T09:14:03.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IQuoteService.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Interfaces\\IQuoteService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:58:13.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Reference.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T08:53:42.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ConnectedService.json",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T08:51:53.167Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "BussinessLayer",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
-              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
-              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\BussinessLayer.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-21T09:03:46.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ConnectedService.json",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwCsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-21T08:51:19.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T06:25:25.96Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "Reference.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAwwDsDAAAMAAAAAAAAAA==",
+              "Title": "GetQuoteDocumentRequest.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentRequest.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentRequest.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentRequest.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T11:58:27.018Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T06:14:13.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T08:57:42.388Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\API\\Program.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\API\\Program.cs",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\Utilities\\DapperContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T06:31:29.734Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-21T07:46:32.892Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Policy.cs",
-              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
-              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
-              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
-              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T08:01:12.349Z",
-              "EditorCaption": ""
+              "Title": "DataAccessLayer.csproj",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-21T07:36:26.857Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "GetQuoteDocumentResponse.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentResponse.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentResponse.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentResponse.cs",
+              "RelativeToolTip": "..\\Microservices\\Document\\src\\BussinessLayer\\Modal\\GetQuoteDocumentResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T06:15:24.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "BusinessLayer.csproj",
               "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj",
               "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj",
@@ -377,8 +380,43 @@
               "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-18T06:28:11.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T06:28:11.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ConnectedService.json",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\ConnectedService.json",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-21T08:51:19.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\DataAccessLayer\\Connected Services\\LoginService\\Reference.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAwwDsDAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T11:58:27.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
+              "RelativeDocumentMoniker": "..\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
+              "ToolTip": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
+              "RelativeToolTip": "..\\Microservices\\Quote\\src\\BussinessLayer\\Modal\\Policy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T08:01:12.349Z"
             }
           ]
         }

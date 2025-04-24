@@ -34,6 +34,9 @@
               },
               "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj": {
                 "projectPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj"
               }
             }
           }
@@ -143,7 +146,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -161,6 +168,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "System.ServiceModel.Duplex": {
               "target": "Package",
               "version": "[6.0.*, )"
@@ -210,6 +229,200 @@
         "projectPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\Shreya\\.nuget\\packages\\",
         "outputPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Document\\src\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shreya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Shreya\\.nuget\\packages\\",
+        "outputPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\BussinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shreya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.Federation": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[6.0.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Shreya\\.nuget\\packages\\",
+        "outputPath": "D:\\TestRater1\\Test-Rater\\Code\\KMG MS Project\\Microservices\\Quote\\src\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Shreya\\AppData\\Roaming\\NuGet\\NuGet.Config",
